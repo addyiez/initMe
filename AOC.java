@@ -6,7 +6,7 @@ public class AOC {
 
         Scanner sc=new Scanner(System.in);
         float r=sc.nextFloat();
-        double area=3.14*r*r;
+        double area=3.14*r*r; //or float area=3.14f*r*r;
         System.out.println(area);
         sc.close();
     }
