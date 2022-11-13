@@ -8,6 +8,7 @@ public class increment {
 
         int c=10;
         int d=c++; //post increment
+        
         int e=5;
          e*=5;// or e=e*e; or e=e*5;
         System.out.println("\n"+c);
