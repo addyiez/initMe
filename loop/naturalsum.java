@@ -38,8 +38,7 @@ public class naturalsum {
             System.out.print(i + " ");
         }
         System.out.println();
-        System.out.println("Sum of first " + N
-                           + " Natural Number = " + (N*(N+1))/2);
+        System.out.println("Sum of first " + N + " Natural Number = " + (N*(N+1))/2);
     }
 }
     */
