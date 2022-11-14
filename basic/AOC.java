@@ -1,3 +1,4 @@
+package basic;
 //import java.io.InputStream;
 import java.util.Scanner;
 
