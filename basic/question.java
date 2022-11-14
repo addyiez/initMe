@@ -1,3 +1,5 @@
+package basic;
+
 /*public class question {
     public static void main(String[] args){
     int x = 2, y = 5;

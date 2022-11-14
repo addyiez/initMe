@@ -1,3 +1,5 @@
+package basic;
+
 public class output {
     public static void main(String arg[]){
 

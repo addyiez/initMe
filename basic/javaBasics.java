@@ -1,3 +1,5 @@
+package basic;
+
 public class javaBasics {
     public static void main(String args[])
     {

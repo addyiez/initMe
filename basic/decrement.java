@@ -1,3 +1,5 @@
+package basic;
+
 public class decrement {
     public static void main(String args[]){
         int a=10;
