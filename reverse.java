@@ -1,4 +1,4 @@
-package loop;
+
 import java.util.*;
 /*
 public class reverse {
