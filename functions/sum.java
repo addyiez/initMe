@@ -41,7 +41,7 @@ public class sum {
 
     //PROCESS 3:
 
-    public static int calculateSum(int a, int b){
+    public static int calculateSum(int a, int b){ //parameters or formal parameters
         
         int sum=a + b;
        return sum;
@@ -53,7 +53,7 @@ public class sum {
         int a=sc.nextInt();
         System.out.print("enter b= ");
         int b=sc.nextInt();
-        int sum=calculateSum(a,b);
+        int sum=calculateSum(a,b);  //arguments or actual parameters
         System.out.println("sum= "+sum);
         sc.close();
     }
