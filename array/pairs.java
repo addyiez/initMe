@@ -3,13 +3,16 @@ package array;
 public class pairs {
     //pairs in an Array
     public static void pair(int numbers[]) {
-        for(int i=0; i<numbers.length; i++){
+        int n=numbers.length;
+        int total=n*(n-1)/2;
+        for(int i=0; i<n; i++){
             int curr= numbers[i];
-            for(int j=i+1; j<numbers.length; j++){
+            for(int j=i+1; j<n; j++){
                 System.out.print("("+curr+","+numbers[j]+")");
             }  
             System.out.println(); 
          }
+         System.out.println("numbers of pairs are: "+total);
     }
     
     public static void main(String args[]) {
