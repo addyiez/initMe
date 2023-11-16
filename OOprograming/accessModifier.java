@@ -1,4 +1,4 @@
-package OOPs;
+package OOprograming;
 
 public class accessModifier {
 

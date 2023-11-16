@@ -1,4 +1,4 @@
-package OOPs;
+package OOprograming;
  public class ClassNobject{
     public static void main(String args[]){
         Pen p1 = new Pen(); // created a pen object called p1
