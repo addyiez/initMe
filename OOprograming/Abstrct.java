@@ -3,6 +3,7 @@ package OOprograming;
 public class Abstrct {
     public static void main(String args[]){
         Mustang myHorse = new Mustang();
+        myHorse.eat();
         //Animal -> Horse -> Mustang
 
 
