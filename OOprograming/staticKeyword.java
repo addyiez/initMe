@@ -18,7 +18,7 @@ class Student{
     String name;
     int roll;
 
-     String schoolName;
+    /* static */ String schoolName;
 
     void setName(String name){
         this.name = name;
