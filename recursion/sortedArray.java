@@ -2,7 +2,7 @@ package recursion;
 
 public class sortedArray {
     public static boolean isSorted(int arr[], int i){
-        if(i == arr.length - 1){
+        if(i == arr.length - 1){  //i = n - 1
             return true;
         }
 
