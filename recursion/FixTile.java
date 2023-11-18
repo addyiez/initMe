@@ -14,6 +14,8 @@ public class FixTile { //amazon
         
         int Totways = fnm1 + fnm2;
         return Totways;
+        //one line
+        // return TilingProblem(n-1) + TilingProblem(n-2);
     }
     public static void main(String args[]){
         System.out.println(TilingProblem(2));
