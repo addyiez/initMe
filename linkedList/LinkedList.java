@@ -9,6 +9,8 @@ public class LinkedList{
             this.next = null;
         }
     }
+    public static Node head;
+    public static Node tail;
 }
    
 
