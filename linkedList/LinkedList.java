@@ -26,6 +26,17 @@ public class LinkedList{
         //step3 -> head = newNode
         head = newNode;
     }
+
+    public void addLast(int data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = tail = newNode;
+            return;
+        }
+        tail.next = newNode;
+        tail = newNode;
+    }
+
     public void print(){ //O(n)
         if(head == null){
             System.out.println("LinkedList is empty");
@@ -45,7 +56,10 @@ public class LinkedList{
         ll.print();
         ll.addFirst(1);
         ll.print();
-        
+        ll.addLast(3);
+        ll.print();
+        ll.addLast(4);
+        ll.print();
 
     }
 }
