@@ -60,7 +60,19 @@ public class LinkedList{
         temp.next = newNode;
     }
 
-    
+    public int removeFirst(){
+        if(size == 0){
+            System.out.println("LL is empty");
+            return Integer.MIN_VALUE;
+        }else if(size == 1){
+            int val = head.data;
+            head = tail = null;
+            return val;
+        }
+        int val = head.data;
+        head = head.next;
+        return val;
+    }
 
     public void print(){ //O(n)
         if(head == null){
@@ -92,7 +104,10 @@ public class LinkedList{
 
          //System.out.println(ll.size);
         //The static field LinkedList.size should be accessed in a static way
-        System.out.println(LinkedList.size);
+        //System.out.println(LinkedList.size);
+
+        ll.removeFirst();
+        ll.print();
     }
 }
    
