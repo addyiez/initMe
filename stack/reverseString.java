@@ -1,7 +1,7 @@
 package stack;
 import java.util.*;
 
-public class reverseString {
+public class reverseString { // flipkart, microsoft, adobe, paytm
     public static String reverse(String str){
         Stack<Character> s = new Stack<>();
         int idx = 0;
