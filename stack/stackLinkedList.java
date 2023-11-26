@@ -1,7 +1,7 @@
 package stack;
 import java.util.*;
 
-public class stackLinkedList {
+public class stackLinkedList { //oyo, adobe
     // static class Node{
     //     int data;
     //     Node next;
