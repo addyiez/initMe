@@ -59,18 +59,18 @@ public class circular {
         }
     }
     public static void main(String args[]){
-        QueueC q = new QueueC(3);
-        q.add(1);
-        QueueC.add(2);
-        QueueC.add(3);
-        System.out.println(QueueC.remove());
-        QueueC.add(4);
-        System.out.println(QueueC.remove());
-        QueueC.add(5);
+       // QueueC q = new QueueC(3);
+        QueueC.add(1); //q.add()
+        QueueC.add(2); //q.add()
+        QueueC.add(3); //q.add()
+        System.out.println(QueueC.remove()); //q.remove()
+        QueueC.add(4); //q.add()
+        System.out.println(QueueC.remove()); //q.remove()
+        QueueC.add(5); //q.add()
 
-        while(!QueueC.isEmpty()){
-            System.out.println(QueueC.peek());
-            QueueC.remove();
+        while(!QueueC.isEmpty()){ //!q.isEmpty()
+            System.out.println(QueueC.peek()); //q.peek()
+            QueueC.remove(); //q.remove()
         }
     }
 }

@@ -52,14 +52,14 @@ public class linkedListQ {
         }
     }
     public static void main(String args[]){
-        QueueL q = new QueueL();
-        q.add(1);
-        QueueL.add(2);
-        QueueL.add(3);
+        //QueueL q = new QueueL();
+        QueueL.add(1); //q.add()
+        QueueL.add(2); //q.add()
+        QueueL.add(3); //q.add()
         
-        while(!QueueL.isEmpty()){
-            System.out.println(QueueL.peek());
-            QueueL.remove();
+        while(!QueueL.isEmpty()){ //q.add()
+            System.out.println(QueueL.peek()); //q.peek()
+            QueueL.remove(); //q.remove()
         }
     }
 
