@@ -48,12 +48,12 @@ public class basic {
     }
     public static void main(String args[]){
         QueueA q = new QueueA(5);
-       q.add(1);
-       q.add(2);
-       q.add(3);
-        q.add(4);
+       QueueA.add(1);
+       QueueA.add(2);
+       QueueA.add(3);
+        QueueA.add(4);
 
-        while(!q.isEmpty()){
+        while(!QueueA.isEmpty()){
             System.out.println(QueueA.peek());
            q.remove();
         }
