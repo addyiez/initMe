@@ -1,7 +1,6 @@
 package Greedy;
 import java.util.*;
 
-import java.util.ArrayList;
 
 public class UnsortActivity {
      public static void main(String args[]){
