@@ -9,6 +9,5 @@ public class AOS {
         int area=s*s;
         System.out.println("area of square is:"+area);
         sc.close();
-    }
-    
+    } 
 }
